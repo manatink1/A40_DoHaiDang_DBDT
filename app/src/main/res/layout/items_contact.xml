@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/Linear1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@color/colorBlack"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/Linear"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:background="@drawable/border_replace_cardview"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_5sdp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/photo"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:src="@drawable/pirate" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_toRightOf="@id/Linear"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="@string/Name"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/Phonenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="0123456"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_11sdp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Linear2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@color/colorBlack">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:background="@color/colorBlackOpacity"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/PhoneCall"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/call"
+                android:drawablePadding="@dimen/_5sdp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="@string/Call"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:id="@+id/Chat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/chat"
+                android:drawablePadding="@dimen/_5sdp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="@string/Message"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:id="@+id/Profile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/details"
+                android:drawablePadding="@dimen/_5sdp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="@string/Profile"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_11sdp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

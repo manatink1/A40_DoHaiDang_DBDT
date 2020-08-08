@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">A40_Day09_DoHaiDang</string>
+    //Call
+    <string name="Text">Enter a number</string>
+
+    //items_contact
+    <string name="Profile">Profile</string>
+    <string name="PhoneCall">PhoneCall</string>
+    <string name="Message">Message</string>
+    <string name="Call">Call</string>
+    <string name="Name">Name</string>
+
+    //AddContact
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="FullName">Full Name</string>
+    <string name="Email">Email</string>
+    <string name="Group">Group</string>
+    <string name="Tune">Tune</string>
+
+    //Send_Message
+    <string name="SendMessage">SMS Message</string>
+
+    //Profile
+    <string name="YProfile">Your Profile</string>
+    <string name="Delete">Del</string>
+    <string name="Update">Upd</string>
+    <string name="SomeText">Bên dưới này là nhật ký các cuộc gọi đến, gọi đi, tin nhắn đến và tin nhắn đi. Nhưng chưa làm!!</string>
+    <string name="InputEmail">TongDaiViettel@gmail.com.vn</string>
+</resources>
